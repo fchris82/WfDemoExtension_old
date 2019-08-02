@@ -1,5 +1,5 @@
 {
-    "name": "wf/demo-extension",
+    "name": "wf-chris/demo-extension",
     "description": "Add a demo recipe and wizard to Workflow framework.",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "wf/docker-workflow-bundle": "dev-master"
+        "wf-chris/docker-workflow-bundle": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.3",
@@ -21,11 +21,5 @@
         "psr-4": {
             "Wf\\DemoExtension\\": ""
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://ferenczikrisztian@bitbucket.org/fchris82-webtown/webtown-worfklow-bundle.git"
-        }
-    ]
+    }
 }
