@@ -1,7 +1,7 @@
 {
     "name": "wf-chris/demo-extension",
     "description": "Add a demo recipe and wizard to Workflow framework.",
-    "type": "library",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
