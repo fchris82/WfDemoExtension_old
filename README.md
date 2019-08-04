@@ -15,7 +15,7 @@ Create your custom `Dockerfile` in `~/.wf-docker-workflow/Dockerfile`:
 ```Dockerfile
 FROM fchris82/wf
 
-ENV WF_SYMFONY_ENV=prod
+ARG WF_SYMFONY_ENV=prod
 RUN cd ${SYMFONY_PATH} && \
     composer clearcache && \
     composer config repositories.repo-name vcs https://github.com/fchris82/WfDemoExtension.git && \
