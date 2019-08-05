@@ -20,7 +20,7 @@ RUN cd ${SYMFONY_PATH} && \
     composer clearcache && \
     composer config repositories.repo-name vcs https://github.com/fchris82/WfDemoExtension.git && \
 #    composer config -g github-oauth.github.com <oauthtoken> && \
-    composer require --update-no-dev "wf-chris/demo-extension"
+    wf-composer-require "wf-chris/demo-extension"
 ```
 
 Build (there is a `.` in the end of the command!):
